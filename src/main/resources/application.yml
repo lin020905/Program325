@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/Program325?useSSL=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: slwal_02
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# MyBatis 配置
+mybatis:
+  type-aliases-package: com.example.meetingroomapi.pojo
+  configuration:
+    map-underscore-to-camel-case: true # 下划线转驼峰
+server:
+  port: 8080
+
+debug: false
