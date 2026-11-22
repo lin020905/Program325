@@ -70,7 +70,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>org.xidian.program325.Program325Application</mainClass>
-                    <skip>true</skip>
+                    <classifier>exec</classifier>
                 </configuration>
                 <executions>
                     <execution>
